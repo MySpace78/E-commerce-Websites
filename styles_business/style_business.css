@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+	background-color:#DCE4E3;
+	
+	}
+.wrapper{
+	width:1000px;
+	height:auto;
+	margin:auto;
+	
+	}
+.header{
+	width:1000px;
+	height:117px;
+	margin:auto;
+	
+	}
+#logo{float:left;}
+#banner{float:right;}
+
+#menu{width:1000px; height:50px; background:#999; margin:auto;}
+#menu {line-height:45px;}
+
+#menu li{
+	list-style:none;
+	display:inline;
+	}
+#menu a{
+	text-decoration:none;
+	color:#000;
+	padding:10px;
+	margin:7px;
+	font-size:20px;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	}
+#menu li a:hover{color:#000;}
+
+
+#search{
+	float:right;
+	padding-right:10px;
+	line-height:45px;
+	
+	}
+
+#Title{ color:#F36; font-size:24px; padding:25px; line-height:30px; text-align:center;}
+#Title li{ list-style:none; }
+#Title li a{text-decoration:none; text-align:center; font-size:16px; font-family:Georgia, "Times New Roman", Times, serif;}
+#Title li a:hover{ text-decoration:none; color:#FFF; font-size:18px;}
+
+.content_wrap{
+	width:1000px;
+	height:600px;
+	margin:auto;
+	background:#F96;
+	}
+#content{
+	width:800px;
+	height:600px;
+	margin:auto;
+	float:right;
+
+	background:#CCF;
+	
+	}
+
+#Cart{width:800px; height:30px; float:right;color:black; border-bottom:1px solid gray;}
+#Product_Area{ width:730px; margin-left:5px; margin-bottom:10px; text-align:center;}
+#Product_Ind{float:left; margin-left:5px; padding:10px;}
+#Product_Ind img{border:1px solid #006;}
+
+
+#sidebar{
+	width:200px;
+	height:600px;
+	margin:auto;
+	float:left;
+	background:#000;
+	}
+.footer{
+	width:1000px;
+	height:50px;
+	background:#006;
+	margin:auto;
+	margin-bottom:50px;
+	}
+	
